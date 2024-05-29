@@ -1,11 +1,15 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-        public static void main(String[] args) {
-            Employee emp1 = new Employee("E001", "xyz@asd.com");
-            System.out.println(emp1);
-            emp1.setEmpId("E002");
-            System.out.println(emp1);
-        }
+package rectangleAndSquare;
 
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle(9, 3);
+        Square square = new Square(4);
+        System.out.println("Rectangle");
+        System.out.println("Area: "+rectangle.getArea());
+        System.out.println("Perimeter: "+rectangle.getPerimeter());
+
+        System.out.println("Square");
+        System.out.println("Area: "+square.getArea());
+        System.out.println("Perimeter: "+square.getPerimeter());
+    }
 }

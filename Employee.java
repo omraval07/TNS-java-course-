@@ -1,32 +1,34 @@
-public class Employee {
-    private String empId, email;
+package EmployeeManagerSystem;
 
-    public Employee(String empId, String email) {
-        this.empId = empId;
-        this.email = email;
+public class Employee extends Member{
+    private String specialization;
+
+    public Employee(String name, int age, String phoneNumber, String address, double salary) {
+        super(name, age, phoneNumber, address, salary);
     }
 
-    public String getEmpId() {
-        return empId;
+    public Employee(String name, int age, String phoneNumber, String address, double salary, String specialization) {
+        super(name, age, phoneNumber, address, salary);
+        this.specialization = specialization;
     }
 
-    public void setEmpId(String empId) {
-        this.empId = empId;
+    public String getSpecialization() {
+        return specialization;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
     }
 
     @Override
     public String toString() {
         return "Employee{" +
-                "empId='" + empId + '\'' +
-                ", email='" + email + '\'' +
+                "name='" + this.getName() + '\'' +
+                ", age=" + this.getAge() +
+                ", phoneNumber='" + this.getPhoneNumber() + '\'' +
+                ", address='" + this.getAddress() + '\'' +
+                ", salary=" + this.getSalary() + '\'' +
+                ", specialization=" + this.getSpecialization() +
                 '}';
     }
 }
