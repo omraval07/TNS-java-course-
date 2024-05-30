@@ -1,0 +1,60 @@
+may-20
+
+1. jdk latest version 
+2. Write a program to print the area of a rectangle by creating a class named 'Area' having two methods. First method named as 'setDim' takes length and 
+breadth of rectangle as parameters and the second method named as 'getArea' returns the area of the rectangle.
+
+------------------------------------------------------------------------------------------
+may-21
+
+3. Add default(No parameter) constructor to all your programs.
+
+------------------------------------------------------------------------------------------
+may-22
+
+4. Find the difference between bufferedreader and sacnner class.
+5. Write a program to print the names of students by creating a Student class. If no name is passed while creating an object of Student class, 
+   then the name should be "Unknown", otherwise the name should be equal to the String value passed while creating object of Student class.
+
+------------------------------------------------------------------------------------------
+may-23
+
+6. Add text calculation in country package program.
+
+------------------------------------------------------------------------------------------
+may-24
+
+upload all the program on GitHub
+
+------------------------------------------------------------------------------------------
+may-27
+
+Create a class named 'Rectangle' with two data members 'length' and 'breadth' and two methods to print the area and perimeter of the rectangle respectively.
+Its constructor having parameters for length and breadth is used to initialize length and breadth of the rectangle. Let class 'Square' inherit the 'Rectangle' class with its constructor having a parameter for its side (suppose s) calling the constructor of its parent class as 'super(s,s)'. Print the area and perimeter of a rectangle and a sq
+
+------------------------------------------------------------------------------------------
+may-28
+
+Create a class named 'Member' having the following members:
+
+Data members
+
+1 - Name
+
+2 - Age
+
+3- Phone number
+
+4 - Address
+
+5 - Salary
+
+It also has a method named 'printSalary' which prints the salary of the members.
+
+Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively.
+ Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of thes
+
+------------------------------------------------------------------------------------------
+may-29
+write a program to count the number of objects created by the users 
+ 
